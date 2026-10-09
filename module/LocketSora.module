@@ -1,13 +1,8 @@
 #!name=💛 Locket Gold 
-#!desc=Unlocked Premium Function
-#!author=https://t.me/miss_lanho
-#!GroupSpam=https://t.me/owchannell
-#!Channel=https://t.me/owspam
-#!icon=https://files.catbox.moe/3benll.jpg
+#!desc=Unlocked Locket with all function
+#!tele=https://t.me/miss_lanho
 
 [Script]
-# ~ By Vuong2023
-# ～ Egern transfer to Shadowrocket & Surge & LanceX
 revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/vuong2023/shad/main/js/Locket_Ohoang7.js, requires-body=true, max-size=-1, timeout=60
 
 deleteHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/vuong2023/shad/main/js/deleteHeader.js, timeout=60
