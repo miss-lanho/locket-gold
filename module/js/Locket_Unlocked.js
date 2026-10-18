@@ -378,6 +378,8 @@ if (ua.includes("Locket")) {
                     { overlay_id: "caption:gai_dep", source: "remote", caption: { background: { colors: ["#FF91AE", "#F8759B"] }, icon: { data: "checkmark.seal.fill", type: "sf_symbol" }, max_lines: 1, text: "Locket xác nhận bạn là gái đẹp", text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "caption:be_ngoan", source: "remote", caption: { background: { colors: ["#E9B9C5", "#D9A4B3"] }, icon: { data: "checkmark.seal.fill", type: "sf_symbol" }, max_lines: 1, text: "Locket xác nhận bạn là bé ngoan", text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "caption:cute", source: "remote", caption: { background: { colors: ["#D94A77", "#B82D59"] }, icon: { data: "checkmark.seal.fill", type: "sf_symbol" }, max_lines: 1, text: "Locket xác nhận bạn cute", text_color: "#FFFFFF", type: "static_content" } },
+                ]
+             
             },
             {
                 section: "🎨 Holiday Caption",
