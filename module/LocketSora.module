@@ -1,3 +1,10 @@
+#!name=💛 Locket Gold Sora
+#!desc=Unlocked Locket with all function
+#!author=Sora
+#!tele=https://t.me/miss_lanho
+
+
+
 [Rule]
 AND,((DOMAIN-SUFFIX,googlevideo.com),(PROTOCOL,UDP)),REJECT
 AND,((DOMAIN,youtubei.googleapis.com),(PROTOCOL,UDP)),REJECT
