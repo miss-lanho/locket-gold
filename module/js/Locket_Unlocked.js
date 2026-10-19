@@ -370,16 +370,17 @@ if (ua.includes("Locket")) {
             {
                 section: "👑 Sora in",
                 items: [
-                    { overlay_id: "caption:sora_in", source: "remote", caption: { background: { colors: ["#FFD1DC", "#FFB7C5", "#FFC0CB"] }, icon: { data: "🌸", type: "emoji" }, max_lines: 1, text: "Sora in", text_color: "#FFFFFFE6", type: "static_content" } },
+                    { overlay_id: "caption:sora_in", source: "remote", caption: { background: { image: { type: "image", data: "star_sign_background", source: "local" }, colors: ["#FFD1DC", "#FFB7C5", "#FFC0CB"] }, icon: { data: "🌸", type: "emoji" }, max_lines: 1, text: "Sora in", text_color: "#FFFFFFE6", type: "static_content" } },
                     { overlay_id: "caption:sora_bin", source: "remote", caption: { background: { image: { type: "image", data: "star_sign_background", source: "local" }, colors: ["#FF8FAB", "#FFC2D1", "#FFE5EC"] }, icon: { data: "🎀", type: "emoji" }, max_lines: 1, text: "Bin iu oi", text_color: "#812D4A", type: "static_content" } },                  
                     { overlay_id: "caption:sora_bong", source: "remote", caption: { background: { image: { type: "image", data: "star_sign_background", source: "local" }, colors: ["#FF8FAB", "#FFC2D1", "#FFE5EC"] }, icon: { data: "🎀", type: "emoji" }, max_lines: 1, text: "Bông iu oi", text_color: "#812D4A", type: "static_content" } },                  
+                    { overlay_id: "caption:sora_nq", source: "remote", caption: { background: { colors: ["#ECEFF1", "#B3E5FC"] }, max_lines: 1, text: "❓", type: "static_content" } },
+                    { overlay_id: "caption:doc_stk_di", source: "remote", caption: { background: { colors: ["#FFE0A0", "#F6A53A"] }, icon: { data: "💳", type: "emoji" }, max_lines: 1, text: "Đọc STK đi", text_color: "#7e5000", type: "static_content" } },
                     { overlay_id: "caption:locket_cuti", source: "remote", caption: { background: { colors: ["#35B5E8", "#19A1D8"] }, icon: { data: "checkmark.seal.fill", type: "sf_symbol" }, max_lines: 1, text: "Locket xác nhận bạn cutii", text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "caption:locket_dangiu", source: "remote", caption: { background: { colors: ["#FF638B", "#F44772"] }, icon: { data: "checkmark.seal.fill", type: "sf_symbol" }, max_lines: 1, text: "Locket xác nhận bạn dangiu", text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "caption:gai_dep", source: "remote", caption: { background: { colors: ["#FF91AE", "#F8759B"] }, icon: { data: "checkmark.seal.fill", type: "sf_symbol" }, max_lines: 1, text: "Locket xác nhận bạn là gái đẹp", text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "caption:be_ngoan", source: "remote", caption: { background: { colors: ["#E9B9C5", "#D9A4B3"] }, icon: { data: "checkmark.seal.fill", type: "sf_symbol" }, max_lines: 1, text: "Locket xác nhận bạn là bé ngoan", text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "caption:cute", source: "remote", caption: { background: { colors: ["#D94A77", "#B82D59"] }, icon: { data: "checkmark.seal.fill", type: "sf_symbol" }, max_lines: 1, text: "Locket xác nhận bạn cute", text_color: "#FFFFFF", type: "static_content" } },
                 ]
-             
             },
             {
                 section: "🎨 Holiday Caption",
