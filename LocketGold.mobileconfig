@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
     <key>PayloadDisplayName</key>
-    <string>Locket Gold 💛</string>
+    <string>Locket Sora 💛</string>
 
     <key>PayloadDescription</key>
-    <string>Hồ sơ cầu hình VIP chặn thu hồi Locket Gold vĩnh viễn.&#10;@duyvinh09</string>
+    <string>Hồ sơ cầu hình VIP chặn thu hồi Locket Gold vĩnh viễn.&#10;@miss_lanho</string>
 
     <key>PayloadIdentifier</key>
-    <string>com.duyvinh09.locketgold.profile</string>
+    <string>com.sora.locketgold.profile</string>
 
     <key>PayloadScope</key>
     <string>System</string>
@@ -24,7 +24,7 @@
     <integer>1</integer>
 
     <key>PayloadOrganization</key>
-    <string>Đinh Duy Vinh</string>
+    <string>miss-lanho.github.io</string>
 
     <key>PayloadContent</key>
     <array>
@@ -50,16 +50,16 @@
             <string>com.apple.dnsSettings.managed</string>
 
             <key>PayloadIdentifier</key>
-            <string>com.duyvinh09.locketgold.dns</string>
+            <string>com.sora.locketgold.dns</string>
 
             <key>PayloadUUID</key>
             <string>6E7D9C2A-5B41-4F83-9A62-D1E0B7C845AF</string>
 
             <key>PayloadDisplayName</key>
-            <string>Locket Gold DNS</string>
+            <string>Locket Sora DNS</string>
 
             <key>PayloadOrganization</key>
-            <string>Đinh Duy Vinh</string>
+            <string>miss-lanho.github.io</string>
 
             <key>PayloadVersion</key>
             <integer>1</integer>
