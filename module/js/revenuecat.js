@@ -184,19 +184,19 @@ var duyvinh09 = {
   ownership_type: "PURCHASED",
   billing_issues_detected_at: null,
   period_type: "normal",
-  expires_date: "2099-01-09T01:04:17Z",
+  expires_date: "2099-10-22T01:04:17Z",
   grace_period_expires_date: null,
   unsubscribe_detected_at: null,
-  original_purchase_date: "2005-01-09T01:04:17Z",
-  purchase_date: "2005-01-09T01:04:17Z",
+  original_purchase_date: "2008-10-22T01:04:17Z",
+  purchase_date: "2008-10-22T01:04:17Z",
   store: "app_store"
 };
 
 var duyvinh = {
   grace_period_expires_date: null,
-  purchase_date: "2005-01-09T01:04:17Z",
+  purchase_date: "2008-10-22T01:04:17Z",
   product_identifier: "com.ddgksf2013.premium.yearly",
-  expires_date: "2099-01-09T01:04:17Z"
+  expires_date: "2099-10-22T01:04:17Z"
 };
 
 const match = Object.keys(mapping).find(key => ua.includes(key));
@@ -222,8 +222,6 @@ if (match) {
   obj.subscriber.subscriptions["com.ddgksf2013.premium.yearly"] = duyvinh09;
   obj.subscriber.entitlements.pro = duyvinh;
 }
-
-console.log("操作成功🎉🎉🎉\nCuttlefishの自留地: https://t.me/ddgksf2021");
 
 $done({
   body: JSON.stringify(obj)
