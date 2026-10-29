@@ -258,9 +258,9 @@ if (ua.includes("Locket")) {
         widget_frame_event: JSON.stringify({
             uid: "midautumn_2026",
             // url: "https://i.ibb.co/1Yt1Dzzy/Shin-chan-1.png",
-            // url: "https://i.ibb.co/RTm5P1n9/kitty-1.png",
+            url: "https://i.ibb.co/RTm5P1n9/kitty-1.png",
             // url: "https://i.ibb.co/mVFNRH3L/Khung-Doraemon-s-c-m-u-ng-y-u.png",
-            url: "https://i.ibb.co/bRCjQ4LY/valorant.jpg",
+            // url: "https://i.ibb.co/bRCjQ4LY/valorant.jpg",
             // url: "https://i.ibb.co/JjLZ3cvD/khung-ins.png",
             use_local_time_zone: true,
             placement: "below",
