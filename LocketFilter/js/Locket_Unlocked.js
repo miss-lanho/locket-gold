@@ -126,7 +126,7 @@ Object.assign(obj.entries, {
         profile_banner: true
     }),
     feature_discovery_popup_config: JSON.stringify({
-        tag: "LOCKET GOLD NMS",
+        tag: "LOCKET GOLD SORA",
         tag_gradient: true,
         tag_style: "gold_gradient",
         title: "Đã Kich Hoạt 💛",
