@@ -41,7 +41,7 @@ if (ua.includes("Locket")) {
             profile_banner: true
         }),
         feature_discovery_popup_config: JSON.stringify({
-            tag: "LOCKET GOLD",
+            tag: "LOCKET GOLD SORA",
             tag_gradient: true,
             tag_style: "gold_gradient",
             title: "Locket lên Gold rồi nha 👀",
@@ -61,8 +61,7 @@ if (ua.includes("Locket")) {
         android_subscribe_gold_button_enabled: "false",
         profile_badge_visible: "true",
         lunar_new_year_app_icon_enabled: "true",
-        settings_telegram_url: "https://t.me/miss_lanho",
-        settings_tiktok_url: "https://tiktok.com/@cundthwqa"
+        settings_telegram_url: "https://t.me/miss_lanho"
     });
 
     // ============================================================
@@ -260,7 +259,8 @@ if (ua.includes("Locket")) {
             // url: "https://i.ibb.co/1Yt1Dzzy/Shin-chan-1.png",
             // url: "https://i.ibb.co/RTm5P1n9/kitty-1.png",
             // url: "https://i.ibb.co/mVFNRH3L/Khung-Doraemon-s-c-m-u-ng-y-u.png",
-            url: "https://i.ibb.co/TDzZcsNT/totoro.png",
+            // url: "https://i.ibb.co/TDzZcsNT/totoro.png",
+            url: "https://i.ibb.co/tpzkfgR6/kuromi.png",
             // url: https://i.ibb.co/NdXDGMBX/spy-x-family.png",
             // url: "https://i.ibb.co/TDzZcsNT/totoro.png",
             // url: "https://i.ibb.co/LdKc0N2C/conan.png",
