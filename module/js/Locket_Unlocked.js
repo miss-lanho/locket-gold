@@ -260,7 +260,7 @@ if (ua.includes("Locket")) {
             // url: "https://i.ibb.co/RTm5P1n9/kitty-1.png",
             // url: "https://i.ibb.co/mVFNRH3L/Khung-Doraemon-s-c-m-u-ng-y-u.png",
             // url: "https://i.ibb.co/TDzZcsNT/totoro.png",
-            url: "https://i.ibb.co/tpzkfgR6/kuromi.png",
+            url: "https://i.ibb.co/9HGykMPH/kuromi.png",
             // url: https://i.ibb.co/NdXDGMBX/spy-x-family.png",
             // url: "https://i.ibb.co/TDzZcsNT/totoro.png",
             // url: "https://i.ibb.co/LdKc0N2C/conan.png",
