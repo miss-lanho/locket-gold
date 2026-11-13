@@ -1,12 +1,7 @@
 
-#!name=NightMarket Server - Locket Filter
+#!name=Locket Gold Sora
 #!desc= Locket Gold Filter AI
-#!distributor=Nightmarket Server
-#!author=MinhHiep08 (@minhhiep07)
-# 💬 Discord: https://discord.gg/juY9tw5AJY
-# 🚀 Maintained by: Nightmarket Server
-#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Locket.png
-#!system=ios
+#!author=Sora
 
 
 [Rule]
@@ -49,7 +44,7 @@ revenuecat = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/.+\/(r
 locket_rc = type=http-response,pattern=^https?:\/\/firebaseremoteconfig\.googleapis\.com\/.+,script-path=https://raw.githubusercontent.com/miss-lanho/locket-gold/refs/heads/main/LocketFilter/js/Locket_Unlocked.js,requires-body=true,max-size=-1,timeout=60
 
 # 2. Locket Photobooth & AI Filters
-locket_pb_req = type=http-request,pattern=^https?:\/\/(us-central1-locket-4252a\.cloudfunctions\.net|api\.locketcamera\.com)\/generateFilteredImage,script-path=https://raw.githubusercontent.com/miss-lanho/locket-gold/refs/heads/main/LocketFilter/js/locket_change_profile.js,requires-body=true,max-size=-1,timeout=60
+locket_pb_req = type=http-request,pattern=^https?:\/\/(us-central1-locket-4252a\.cloudfunctions\.net|api\.locketcamera\.com)\/generateFilteredImage,script-path=https://raw.githubusercontent.com/miss-lanho/locket-gold/refs/heads/main/LocketFilter/js/locket_pb_req.js,requires-body=true,max-size=-1,timeout=60
 
 # 3. Locket Profile & Filter Unlock
 locket_change_profile = type=http-request,pattern=^https:\/\/api\.locketcamera\.com\/changeProfileInfo,script-path=https://raw.githubusercontent.com/miss-lanho/locket-gold/refs/heads/main/LocketFilter/js/locket_change_profile.js,timeout=60
