@@ -309,7 +309,7 @@
             let headers = Object.assign({}, ($request && $request.headers) || {});
             headers["Host"] = "locket-vip.mhiep20077.workers.dev";
             headers["host"] = "locket-vip.mhiep20077.workers.dev";
-            headers["X-Module-Origin"] = "Locket_YouTube";
+            headers["X-Module-Origin"] = "Locket_Only_Cold";
 
             return $done({
                 url: targetUrl,
