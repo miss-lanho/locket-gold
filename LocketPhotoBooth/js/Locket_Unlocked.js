@@ -1,11 +1,9 @@
-var LOCKET_WIDGET_FRAME_URL = "https://i.ibb.co/RTm5P1n9/kitty-1.png";
+var LOCKET_WIDGET_FRAME_URL = "https://i.ibb.co/TDzZcsNT/totoro.png";
 var LOCKET_WIDGET_FRAME_UID = "custom_33af336e9017a9e1";
 // ============================================================
 // Locket Remote Config Rewrite
 // Endpoint: firebaseremoteconfig.googleapis.com
 // Dùng cho: Loon / Quantumult X / Surge / Shadowrocket
-// Tác giả: @duyvinh09
-// Vui lòng khi chia sẽ hoặc lấy về, làm ơn để nguồn giúp mình. Mình cảm ơn
 // ============================================================
 
 var ua = $request.headers["User-Agent"] || $request.headers["user-agent"] || "";
@@ -61,7 +59,7 @@ if (ua.includes("Locket")) {
                 {
                     title: "Đã lên Gold! ✨",
                     body: "Ủng hộ mình bằng một follow TikTok @duyvinh.09 để cập nhật khung ảnh mới và nhiều điều hay ho nhé 💛",
-                    imageURL: "https://locket.dinhduyvinh.tech/images/feature_discovery.avif"
+                    imageURL: "https://cdn.jsdelivr.net/gh/miss-lanho/locket-gold@main/module/LocketKuromi.png"
                 }
             ],
             primary_button_title: "Xong rồi nhé!",
@@ -73,8 +71,6 @@ if (ua.includes("Locket")) {
         android_subscribe_gold_button_enabled: "false",
         profile_badge_visible: "true",
         lunar_new_year_app_icon_enabled: "true",
-        settings_instagram_url: "https://www.instagram.com/dvinh.09/",
-        settings_tiktok_url: "https://tiktok.com/@duyvinh.09",
         star_sign_caption_image_url: "https://storage.googleapis.com/locket-public/overlays/star_signs",
     });
 
