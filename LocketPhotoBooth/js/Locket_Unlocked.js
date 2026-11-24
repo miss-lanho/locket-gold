@@ -51,14 +51,14 @@ if (ua.includes("Locket")) {
             profile_banner: true
         }),
         feature_discovery_popup_config: JSON.stringify({
-            tag: "UNLOCKED",
+            tag: "LOCKET GOLD SORA",
             tag_gradient: true,
-            // tag_style: "gold_gradient",
-            title: "Locket Gold",
+            tag_style: "gold_gradient",
+            title: "Locket lên Gold rồi nha 👀",
             feature_set: [
                 {
-                    title: "Đã lên Gold! ✨",
-                    body: "Ủng hộ mình bằng một follow TikTok @duyvinh.09 để cập nhật khung ảnh mới và nhiều điều hay ho nhé 💛",
+                    title: "Locket Sora ✨",
+                    body: "Vũ trụ là những câu thơ, nơi có u n i 💛",
                     imageURL: "https://cdn.jsdelivr.net/gh/miss-lanho/locket-gold@main/module/LocketKuromi.png"
                 }
             ],
