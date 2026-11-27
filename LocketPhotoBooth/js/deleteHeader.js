@@ -1,7 +1,3 @@
-/***********************************************
-> deleteHeader by duyvinh09
-***********************************************/	
-
 const version = "V2.0.0";
 
 if (typeof $request === "undefined" || !$request || !$request.headers) {
