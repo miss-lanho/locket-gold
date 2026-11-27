@@ -10,14 +10,14 @@ AND,((DOMAIN,us-central1-locket-4252a.cloudfunctions.net),(PROTOCOL,UDP),(DEST-P
 AND,((DOMAIN,firebaseremoteconfig.googleapis.com),(PROTOCOL,UDP),(DEST-PORT,443)),REJECT
 [Script]
 RevenueCat - script hiện tại
-locket_revenuecat = type=http-response, pattern=^https://api.revenuecat.com/.+/(receipts|subscribers), script-path=https://locket.dinhduyvinh.tech/js/Locket_Duyvinh09.js, requires-body=true, max-size=-1, timeout=60
+locket_revenuecat = type=http-response, pattern=^https://api.revenuecat.com/.+/(receipts|subscribers), script-path=https://raw.githubusercontent.com/miss-lanho/locket-gold/refs/heads/main/LocketPhotoBooth/js/Locket_Duyvinh09.js, requires-body=true, max-size=-1, timeout=60
 Xóa header cache
-locket_delete_header = type=http-request, pattern=^https://(api.revenuecat.com|firebaseremoteconfig.googleapis.com)/.+, script-path=https://locket.dinhduyvinh.tech/js/deleteHeader.js, timeout=60
+locket_delete_header = type=http-request, pattern=^https://(api.revenuecat.com|firebaseremoteconfig.googleapis.com)/.+, script-path=https://raw.githubusercontent.com/miss-lanho/locket-gold/refs/heads/main/LocketPhotoBooth/js/deleteHeader.js, timeout=60
 Firebase Remote Config
-locket_unlocked = type=http-response, pattern=^https://firebaseremoteconfig.googleapis.com/.+, script-path=https://locket.dinhduyvinh.tech/js/Locket_Unlocked.js?widget_frame=https%3A%2F%2Fi.ibb.co%2FRTm5P1n9%2Fkitty-1.png, requires-body=true, max-size=-1, timeout=60
+locket_unlocked = type=http-response, pattern=^https://firebaseremoteconfig.googleapis.com/.+, script-path=https://raw.githubusercontent.com/miss-lanho/locket-gold/refs/heads/main/LocketPhotoBooth/js/Locket_Unlocked.js?widget_frame=https://i.ibb.co/TDzZcsNT/totoro.png, requires-body=true, max-size=-1, timeout=60
 AI Filter / Photobooth
-locket_filters = type=http-request, pattern=^https://(api.locketcamera.com|us-central1-locket-4252a.cloudfunctions.net)/(?:[^?#]/)?generateFilteredImage(?:?.)?$, script-path=https://locket.dinhduyvinh.tech/js/Locket_Filters.js, requires-body=true, max-size=-1, timeout=120
+locket_filters = type=http-request, pattern=^https://(api.locketcamera.com|us-central1-locket-4252a.cloudfunctions.net)/(?:[^?#]/)?generateFilteredImage(?:?.)?$, script-path=https://raw.githubusercontent.com/miss-lanho/locket-gold/refs/heads/main/LocketPhotoBooth/js/Locket_Filters.js, requires-body=true, max-size=-1, timeout=120
 Quote / Breaking News captions
-locket_captions = type=http-request, pattern=^https://(api.locketcamera.com|us-central1-locket-4252a.cloudfunctions.net)/(?:[^?#]/)?generateCaption(?:?.)?$, script-path=https://locket.dinhduyvinh.tech/js/Locket_Filters.js, requires-body=true, max-size=-1, timeout=35
+locket_captions = type=http-request, pattern=^https://(api.locketcamera.com|us-central1-locket-4252a.cloudfunctions.net)/(?:[^?#]/)?generateCaption(?:?.)?$, script-path=https://raw.githubusercontent.com/miss-lanho/locket-gold/refs/heads/main/LocketPhotoBooth/js/Locket_Filters.js, requires-body=true, max-size=-1, timeout=35
 [MITM]
 hostname = %APPEND% api.locketcamera.com, us-central1-locket-4252a.cloudfunctions.net, firebaseremoteconfig.googleapis.com, api.revenuecat.com
