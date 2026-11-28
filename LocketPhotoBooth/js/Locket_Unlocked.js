@@ -59,10 +59,10 @@ if (ua.includes("Locket")) {
                 {
                     title: "Locket Sora ✨",
                     body: "Vũ trụ là những câu thơ, nơi có u n i 💛",
-                    imageURL: "https://cdn.jsdelivr.net/gh/miss-lanho/locket-gold@main/module/kuromi.avif"
+                    imageURL: "https://cdn.jsdelivr.net/gh/miss-lanho/locket-gold@main/module/kuromi.png"
                 }
             ],
-            primary_button_title: "Xong rồi nhé!",
+            primary_button_title: "Khám phá ngay!",
             campaign: "locket_gold",
             start_at: "2020-01-01T00:00:00",
             end_at: "2099-12-31T23:59:59",
@@ -105,7 +105,7 @@ if (ua.includes("Locket")) {
     function makePhotoboothFilter(id, name, imageUrl, colors, category, options = {}) {
         const {prompt = id, tintColor = colors[0], sfSymbol = "camera.filters", filterType = "cutout", overlay = true} = options;
         // List previews use small assets; overlay URLs retain the original image.
-        const previewUrl = "https://locket.dinhduyvinh.tech/thumbnails/" + id + ".png";
+        const previewUrl = "https://cdn.misslanho.io.vn/frames/" + id + ".png";
         return {
             uid: id,
             id: id,
