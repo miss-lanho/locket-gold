@@ -3,7 +3,7 @@
 #!author=sora
 #!system=ios
 [URL Rewrite]
-^https://api.locketcamera.com/generateFilteredImage https://locket.dinhduyvinh.tech/generateFilteredImage 307
+^https://api.locketcamera.com/generateFilteredImage https://locket-img.onrender.com/generateFilteredImage 307
 [Rule]
 AND,((DOMAIN,api.locketcamera.com),(PROTOCOL,UDP),(DEST-PORT,443)),REJECT
 AND,((DOMAIN,us-central1-locket-4252a.cloudfunctions.net),(PROTOCOL,UDP),(DEST-PORT,443)),REJECT
