@@ -59,7 +59,7 @@ if (ua.includes("Locket")) {
                 {
                     title: "Locket Sora ✨",
                     body: "Vũ trụ là những câu thơ, nơi có u n i 💛",
-                    imageURL: "https://cdn.jsdelivr.net/gh/miss-lanho/locket-gold@main/module/kuromi.png"
+                    imageURL: "https://cdn.jsdelivr.net/gh/miss-lanho/locket-gold@main/module/kuromi.avif"
                 }
             ],
             primary_button_title: "Xong rồi nhé!",
