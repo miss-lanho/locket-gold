@@ -10,7 +10,7 @@ AND,((DOMAIN,us-central1-locket-4252a.cloudfunctions.net),(PROTOCOL,UDP),(DEST-P
 AND,((DOMAIN,firebaseremoteconfig.googleapis.com),(PROTOCOL,UDP),(DEST-PORT,443)),REJECT
 [Script]
 RevenueCat - script hiện tại
-locket_revenuecat = type=http-response, pattern=^https://api.revenuecat.com/.+/(receipts|subscribers), script-path=https://raw.githubusercontent.com/miss-lanho/locket-gold/refs/heads/main/LocketPhotoBooth/js/Locket_Duyvinh09.js, requires-body=true, max-size=-1, timeout=60
+locket_revenuecat = type=http-response, pattern=^https://api.revenuecat.com/.+/(receipts|subscribers), script-path=https://raw.githubusercontent.com/miss-lanho/locket-gold/refs/heads/main/LocketPhotoBooth/js/Locket_Sora.js, requires-body=true, max-size=-1, timeout=60
 Xóa header cache
 locket_delete_header = type=http-request, pattern=^https://(api.revenuecat.com|firebaseremoteconfig.googleapis.com)/.+, script-path=https://raw.githubusercontent.com/miss-lanho/locket-gold/refs/heads/main/LocketPhotoBooth/js/deleteHeader.js, timeout=60
 Firebase Remote Config
